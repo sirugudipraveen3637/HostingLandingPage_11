@@ -3,7 +3,7 @@
 ##### Published Url:-[Hosting Page](https://cool-alfajores-8c8544.netlify.app/)
 
 
-<img src="https://github.com/sirugudipraveen3637/StreetStyleLandingPage_1/blob/main/1.png" height="60%" width="75%"/>
+<img src="https://github.com/sirugudipraveen3637/HostingLandingPage_11/blob/main/11.png" height="60%" width="75%"/>
 
 
 ### Knowledge Gained:-
