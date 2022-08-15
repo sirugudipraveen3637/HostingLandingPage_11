@@ -9,12 +9,14 @@
 ### Knowledge Gained:-
 
   
-  - Shadow bOX
   - Flex  Box
   - Type of Selectors
   - Image Overlap
+  - Shadow box
+  - Responsive web
+  - Managing Images in different resolutions
   
-### Development Efforts:- 6.00 hours
+### Development Efforts:- 6.00 hours and 3 hrs(responsive web)
   
 ### Technologies:-
 <span>
