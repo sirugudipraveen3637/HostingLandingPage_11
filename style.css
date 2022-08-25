@@ -213,7 +213,7 @@ header>div:nth-child(2)>img
 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   margin-left: 50px;
   margin-right: 50px;
   gap: 25px;
@@ -223,20 +223,37 @@ header>div:nth-child(2)>img
   background-color: white;
   width:24.5%;
   height: fit-content;
-  padding: 30px;
+  padding: 0px;
   border: 1px solid white;
   border-radius: 10px;
 
 }
-.pack>div>p{
+.packs>div:nth-child(2)>div:nth-child(3)>button
+{
+  background-color: #056EEC;
+  color: white;
+}
+.pack>div:nth-child(2)
+{
+  margin: 30px;
+}
+.pack>div:nth-child(3)>button
+{
+  margin-bottom: 30px;
+
+}
+.unselecteddiv>p{
   font-size: 15px;
   color: #878787;
   margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+  margin-left: 30px;
 }
-.pack>div>h2{
+.unselecteddiv>h2{
   font-size: 30px;
-  color: black
+  color: black;
+  margin-left: 30px;
+  margin-top:15px;
 }
 
 .pack ul
@@ -530,6 +547,30 @@ padding: 20px;
   height: 25px;
 }
 
+.selecteddiv
+{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  background-color: #2c2c2c;
+  border-radius: 7px;
+  
+}
+.selecteddiv>h2
+{
+  margin-left: 30px;
+  margin-top:15px;
+  color: white;
+}
+.selecteddiv>p
+{
+  margin-left: 30px;
+  margin-top:10px;
+  margin-bottom: 15px;
+  color: white;
+}
+
 @media  (max-width:639px) {
       .quitoce
       {
@@ -616,6 +657,6 @@ padding: 20px;
    @media (min-width: 1024px) {
     .pack
     {
-      width:24.5%;
+      width:25%;
     }
    }
